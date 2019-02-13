@@ -8,10 +8,10 @@ export default class Footer extends Component {
         <p className="footer_title">RESTONS EN CONTACT</p>
         <div className="container_social">
           <ul className="socialIcons">
-            <li className="facebook"><a href="https://fr-fr.facebook.com/Voyageursdumonde/"><i className="fa fa-fw fa-facebook"></i>Facebook</a></li>
-            <li className="twitter"><a href="https://twitter.com/conseilsvoyages?lang=fr"><i className="fa fa-fw fa-twitter"></i>Twitter</a></li>
-            <li className="instagram"><a href="https://www.instagram.com/afrenchtraveler/"><i className="fa fa-fw fa-instagram"></i>Instagram</a></li>
-            <li className="pinterest"><a href="https://www.pinterest.fr/vvagabondages/"><i className="fa fa-fw fa-pinterest-p"></i>Pinterest</a></li>
+            <li className="facebook"><a href="https://www.facebook.com/MPG2019/"><i className="fa fa-fw fa-facebook"></i>Facebook</a></li>
+            <li className="twitter"><a href="https://twitter.com/mpg2019"><i className="fa fa-fw fa-twitter"></i>Twitter</a></li>
+            <li className="instagram"><a href="https://www.instagram.com/mpg2019/"><i className="fa fa-fw fa-instagram"></i>Instagram</a></li>
+            <li className="pinterest"><a href="https://www.pinterest.fr/bemartine/gourm%C3%A9diterran%C3%A9enmediterranean-diet/mpg-2019-ann%C3%A9e-de-la-gastronomie-en-provence/"><i className="fa fa-fw fa-pinterest-p"></i>Pinterest</a></li>
           </ul>
         </div>
         <ul>
