@@ -14,7 +14,7 @@ class App extends Component {
         return (
             <BrowserRouter>
                 <Provider store={store  }>
-                    <div>
+                    <div className="container-fluid myContainerFluid">
                         {
                             !window.location.href.includes('admin') &&
                             <PublicRouter />
