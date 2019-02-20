@@ -35,7 +35,7 @@ export default class Nav extends Component {
                   <h3>Presse</h3></a></li>
               </NavLink>
               <NavLink exact to="/Contact">
-                <li className="nav-item"><a class="nav-link" href="#presse">
+                <li className="nav-item"><a class="nav-link" href="#contact">
                   <h3>Contact</h3></a></li>
               </NavLink>
             </ul>

@@ -39,7 +39,61 @@ a:focus {
 .navbar-expand-lg .navbar-collapse {
 	justify-content: center;
 }
-
+/* Header video */
+.header-container
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+	position: relative;
+	margin-top: 40px;
+	
+}
+.header-container h1
+{
+    margin: 0;
+    padding: 15px;
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+}
+.header-container .video-container
+{
+    margin: 0;
+    padding: 0;
+    /* padding-top: 56.25%; give aspect ratio of 16:9; "720 / 1280 = 0.5625" */
+    position: relative;
+    z-index: -99;
+    display: inline-block;
+	width: 100%;
+	height: auto;
+	/* height: 0; */
+	text-align: center;
+	/* background-color: #0ebed636; */
+	/* background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/03/74/90/4857bd0ab532924.jpg");; */
+	
+}
+.header-container .video-container > iframe
+{
+    position: absolute; /* Expand to fill */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+/* END of Header video */
+/* Configuration Section */
+.section_title {
+    font-size: 1em;
+    letter-spacing: 2px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
 /* Footer */
 .footer {
 	display: flex;

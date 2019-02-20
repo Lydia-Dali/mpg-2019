@@ -1,0 +1,126 @@
+.h3{
+background: #5f9ea0;
+color: #fff;
+font-size: 36px;
+line-height: 274px;
+margin: 10px;
+padding: 2%;
+position: relative;
+text-align: center;
+}
+.containerActu1{
+    background-color: rgba(19, 17, 17, 0.98);
+    margin: 3vw;
+}
+.slick-prev{
+    left: -24px;
+    z-index: 12;
+    top: 53%;                
+}
+.slick-next{
+    right: -24px;
+    z-index: 12;
+    margin-right: 2em;
+    top: 53%;
+}
+
+.slick-next:before, .slick-prev:before {
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: #1d2124 !important;
+}
+.carousel-multi-item .carousel-item {
+    display: inline-flex !important;
+}
+
+.carousel-indicators {
+    position: relative;
+    right: 0;
+    bottom: -15px;
+    left: 0;
+    z-index: 15;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;    
+}
+.carousel-indicators .active {
+    background-color: #17a2b8 !important;
+}
+
+.carousel-indicators li {
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;   
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    height: 1.25rem;
+    width: 1.25rem;
+    max-width: 1.25rem;
+    background-color: #7e848a !important;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.carousel-multi-item .carousel-indicators .active {
+    height: 1.56rem;
+    width: 1.56rem;
+    max-width: 1.56rem;    
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.carousel-multi-item .controls-top .btn-floating {
+    background: #4285f4;
+}
+
+.btn-floating {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    width: 47px;
+    height: 47px;
+    position: relative;
+    z-index: 1;
+    vertical-align: middle;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    margin: 10px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 0;
+    cursor: pointer;
+}
+
+.btn-floating i {
+    display: inline-block;
+    width: inherit;
+    text-align: center;
+    color: #fff;
+}
+.btn-floating i {
+    font-size: 1.25rem;
+    line-height: 47px;
+}
+
+h4{
+    font-size: 1.5vw !important;
+}
+
+@media screen and (max-width: 767px){
+    h4{
+        font-size: 3.5vw !important;
+        font-weight: bold;
+    } 
+}
+
+
