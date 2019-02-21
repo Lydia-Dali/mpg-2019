@@ -14,12 +14,13 @@ export default class SliderActu extends Component {
   render() {
 
     return (
-      <div>
+      <div className="slider-actu-color">
+      <p className="section_title">ÉVENEMENT</p>
         <MDBContainer>
           <MDBCarousel activeItem={1} length={2} slide={true} showControls={false} showIndicators={true} multiItem>
             <MDBCarouselInner>
               <MDBRow>
-                <MDBCarouselItem itemId="1">
+                <MDBCarouselItem  className="fix-background-color-1" itemId="1">
                   <MDBCol md="4">
                     <MDBCard className="mb-2">
                       <MDBCardImage className="img-fluid" src="http://www.mucem.org/sites/default/files/styles/thumb_620x430/public/2018-01/mucem_terrasse_j4_%C2%A9m%C3%B4le-passedat.jpg?itok=AYtqTyPC" />
@@ -61,7 +62,7 @@ export default class SliderActu extends Component {
                     </MDBCard>
                   </MDBCol>
                 </MDBCarouselItem>
-                <MDBCarouselItem itemId="2">
+                <MDBCarouselItem className="fix-background-color-1" itemId="2">
                   <MDBCol md="4">
                     <MDBCard className="mb-2">
                       <MDBCardImage className="img-fluid" src="https://cdn-elle.ladmedia.fr/var/plain_site/storage/images/loisirs/sorties/bars/terrasse-de-reve/la-terrasse-de-reve-de-l-intercontinental-marseille-hotel-dieu-a-marseille-bouches-du-rhone/65152324-1-fre-FR/La-terrasse-de-reve-de-L-InterContinental-Marseille-Hotel-Dieu-a-Marseille-Bouches-du-Rhone.jpg" />
@@ -80,8 +81,8 @@ export default class SliderActu extends Component {
                     <MDBCard className="mb-2">
                       <MDBCardImage className="img-fluid" src="http://www.museeregardsdeprovence.com/wp-content/gallery/art-mange-lart/alussi-ludovic-le-poulpe-bd.jpg" />
                       <MDBCardBody>
-                        <MDBCardTitle>Exposition</MDBCardTitle>
-                        <MDBCardTitle>L’art Mange L’art</MDBCardTitle>
+                        <MDBCardTitle>Exposition L’art Mange L’art</MDBCardTitle>
+                        
                         <MDBCardTitle>Musée Regards de Provence – Marseille
 </MDBCardTitle>
                         <MDBCardText>

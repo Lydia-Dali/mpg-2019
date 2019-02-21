@@ -8,7 +8,7 @@ export default class Nav extends Component {
         {/* Navbar */}
         <nav className="navbar navbar-expand-lg navbar-light bg-light nav">
           <a className="navbar-brand" href="#">
-            <h1>MPG 2019</h1>
+            <h1 className="title_site">MPG 2019</h1>
           </a>
           <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" className="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span className="navbar-toggler-icon"></span></button>
           <div className="collapse navbar-collapse" id="navbarNav">
